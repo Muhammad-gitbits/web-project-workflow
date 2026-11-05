@@ -1,0 +1,13 @@
+1. git init -b main - Initializes a new Git repository with default branch main
+2. git config - Sets author identity metadata for commits
+3. git status - Displays the working directory and staging area state
+4. git add - Stages file changes to the Git index
+5. git commit - Records snapshot changes permanently to repository history
+6. git checkout -b - Creates and switches to a new branch
+7. git checkout - Switches active working branch
+8. git merge --no-ff - Merges target branch into main creating explicit merge commit
+9. git log --graph --oneline --all - Displays ASCII visual graph of commit history
+10. git status --ignored - Lists files suppressed by .gitignore rules
+11. git reset --soft HEAD~1 - Undoes last commit while keeping changes staged
+12. git remote add origin - Maps local repo to remote GitHub repository
+13. git push - Uploads local branch commits to remote repository
